@@ -1,0 +1,76 @@
+{
+  "files.exclude": {
+    "amplify/.config": true,
+    "amplify/**/*-parameters.json": true,
+    "amplify/**/amplify.state": true,
+    "amplify/**/transform.conf.json": true,
+    "amplify/#current-cloud-backend": true,
+    "amplify/backend/amplify-meta.json": true,
+    "amplify/backend/awscloudformation": true
+  },
+  "githubPullRequests.ignoredPullRequestBranches": ["prod"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "prettier.useEditorConfig": false,
+  "prettier.useTabs": false,
+  "prettier.configPath": ".prettierrc.json",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#0c0d0c",
+
+    "activityBar.border": "#fff4b3",
+
+    "editorLineNumber.activeForeground": "#ffe44d",
+    "activityBar.activeBorder": "#ffe44d",
+    "activityBar.foreground": "#ffe44d",
+
+    "activityBar.inactiveForeground": "#806c00",
+    "editorLineNumber.foreground": "#806c00",
+
+    "sideBar.border": "#5800e6",
+    "sideBar.background": "#0a001a",
+    "sideBar.foreground": "#cfb3ff",
+
+    "sideBarSectionHeader.border": "#cfb3ff",
+    "sideBarSectionHeader.background": "#270066",
+    "sideBarSectionHeader.foreground": "#cfb3ff",
+
+    "editorLineNumber.dimmedForeground": "#ff0000",
+
+    "editor.selectionHighlightBorder": "#cc3300",
+    "editor.foreground": "#b366ff",
+    "editorGutter.modifiedBackground": "#f60000",
+    "editorGutter.foldingControlForeground": "#ce99ff",
+    "editor.lineHighlightBorder": "#4d4d4d",
+    "editorRuler.foreground": "#4d4d4d"
+  },
+  "editor.rulers": [100],
+  "editor.minimap.enabled": false,
+  /******************************************************/
+  /********** Standard Indent Highlight Config **********/
+  /******************************************************/
+  /* Whether to highlight the indent of the block enclosing the current line */
+  "indenticator.showIndentGuide": true,
+  /* Color of the indent marker for dark themes */
+  "indenticator.color.dark": "#ff80ff",
+  /* Color of the indent marker for light themes */
+  "indenticator.color.light": "#ff80ff",
+  /* Width of the indent marker in pixels */
+  "indenticator.width": 1,
+  /* Line style of the indent marker (e.g. "inset", "dashed", "dotted", ...) */
+  "indenticator.style": "inset",
+  /* Whether to display the hover near the indent line */
+  "indenticator.showHover": true,
+  /* Wether to highlight the contained code block when hovering the indent line. If activated, the peeked content will be shown at top or bottom of the block, otherwise it will be shown at cursor position.*/
+  "indenticator.hover.highlight": true,
+
+  "indenticator.showCurrentDepthInStatusBar": true,
+
+  "vscode-pets.throwBallWithMouse": true,
+  "vscode-pets.petSize": "medium",
+
+  "monkeyC.developerKeyPath": "C:\\src\\sport-tracker\\developer_key",
+  "monkeyC.javaPath": "C:\\src\\sport-tracker\\tools\\jdk8u372-b07"
+
+
+}
