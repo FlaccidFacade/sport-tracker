@@ -1,4 +1,9 @@
 # Dont include tools
 tools
 
+# don't version control secrets
 developer_key
+
+# dont version control generated source
+bin
+
