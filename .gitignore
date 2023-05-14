@@ -6,4 +6,5 @@ developer_key
 
 # dont version control generated source
 bin
-
+bin/internal-mir/Rez.mir
+bin/gen/006-B3703-00/source/Rez.mcgen
